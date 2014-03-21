@@ -1,13 +1,11 @@
 require 'prime'
 
 class PrimeNumber
-
   def prime_number?(number)
     if Prime.prime?(number)
-      return true
+      true
     else
-      return false
+      false
     end
   end
-
 end
