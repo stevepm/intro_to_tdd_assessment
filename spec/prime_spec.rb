@@ -9,4 +9,11 @@ describe 'PrimeNumber' do
 
   end
 
+  it 'returns false when passed a number that isnt prime' do
+    is_not_prime = PrimeNumber.new
+
+    expect(is_not_prime.prime_number?(6)).to eq(false)
+
+  end
+
 end
